@@ -1,0 +1,11 @@
+---
+description: Node.js backend architecture, routing, and XAMPP database connections
+globs: server.js, db.js, src/**/*.js
+alwaysApply: false
+---
+# Node.js & XAMPP DB Rules
+
+* **Stack**: Use Node.js for backend server logic.
+* **Database**: Connect to XAMPP's local MySQL database using the `db.js` configuration file.
+* **Database Credentials**: Host is `localhost`, port is `3306`, user is `root`, password is empty `""`. Use environment variables from `.env`.
+* **Architecture**: Follow the established pattern using `routes/` for entry endpoints, `controllers/` for logic handles, and `middleware/` for request checks.

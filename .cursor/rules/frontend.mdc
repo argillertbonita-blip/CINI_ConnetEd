@@ -1,0 +1,10 @@
+---
+description: Frontend UI rules for static assets
+globs: public/**/*
+alwaysApply: false
+---
+# Frontend Web Rules
+
+* **Stack**: Use clean HTML5, custom CSS styling, and vanilla JavaScript.
+* **Assets**: All visual elements, stylesheets, and custom client scripts must live inside the `public/` folder (`public/assets/`, `public/css/`, `public/js/`).
+* **Links**: Relative paths in `index.html` must correctly point to internal directories without breaking when served by Node.js.
